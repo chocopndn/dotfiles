@@ -16,6 +16,9 @@ default_border pixel 2
 gaps inner 8
 gaps outer 0
 
+# Disable focus follows mouse
+focus_follows_mouse no
+
 ### AUTOSTART APPLICATIONS ###
 
 exec --no-startup-id dex --autostart --environment i3  
@@ -148,4 +151,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-focus_follows_mouse no
+# APPLICATION ASSIGNMENTS
+assign [class="firefox"] 1
+assign [class="Code"] 2
+assign [class="Spotify"] 10
