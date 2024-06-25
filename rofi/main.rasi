@@ -1,5 +1,5 @@
 configuration {
-  font: "JetBrainsMono Nerd Font 10";
+  font: "RobotoNerdMono Nerd Font 11.5";
 
   timeout {
     delay: 10;
@@ -13,10 +13,11 @@ configuration {
   padding: 0;
   spacing: 0;
 
-  bg: #282a36;
-  bg-alt: #44475a;
-  fg: #f8f8f2;
-  fg-alt: #6272a4;
+  bg: #282828;
+  bg-alt: #3c3836;
+  fg: #ebdbb2;
+  fg-alt: #ebdbb2;
+  fg-light: #a89984; 
 
   background-color: @bg;
   text-color: @fg-alt;
@@ -24,7 +25,7 @@ configuration {
 
 window {
   border: 2px;
-  border-color: @fg-alt;
+  border-color:  @fg-light;
   padding: 6px;
   transparency: "real";
   width: 40%;
